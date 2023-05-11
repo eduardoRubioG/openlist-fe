@@ -1,5 +1,6 @@
 import React from "react";
 function Login() {
+  console.count("Login render");
   // TODO: Make sure these are correc
   const scopes = "playlist-read-private playlist-modify-private";
 

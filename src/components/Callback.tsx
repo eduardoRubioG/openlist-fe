@@ -13,12 +13,11 @@ const Callback = () => {
         await axios.post("http://localhost:8080/api/auth/spotify", {
           authCode,
         });
-        // history.push('/dashboard');
       }
     };
 
     handleCallback();
-  }, [history]);
+  }, []);
 
   return <div>Processing...</div>;
 };
